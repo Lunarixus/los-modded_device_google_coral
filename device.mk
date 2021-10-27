@@ -598,7 +598,7 @@ endif
 PRODUCT_PACKAGES += \
     wificond \
     libwpa_client \
-    WifiOverlay
+    WifiOverlay2021
 
 # Connectivity
 PRODUCT_PACKAGES += \
