@@ -23,9 +23,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_system.mk)
 # Inherit from Lineage product
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Enable mainline checking
-PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
-
 #
 # All components inherited here go to system_ext image
 #
