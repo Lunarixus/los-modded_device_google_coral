@@ -38,6 +38,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a76
 
 TARGET_BOARD_COMMON_PATH := device/google/coral/sm8150
 
+BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200n8 androidboot.console=ttyMSM0 printk.devkmsg=on
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += ehci-hcd.park=3
